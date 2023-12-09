@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Items-bg-color: #427d9d;
+  --color3: #9bbec8;
+  --color: #ddf2fd;
+  --BG-color: #206184;
+  --BRadius: 8px;
+}
+html {
+  font-family: "Catamaran", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #03202c;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  /*---------------- Header ------------------*/
+  background: var(--BG-color);
+  border-radius: var(--BRadius);
+  width: 75.4em;
+  height: 5em;
+  margin: 10px 10px 10px 10px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  left: 18%;
+  top: 8x;
+}
+#logo {
+  color: aliceblue;
+  margin: 10px;
+  font-size: 38px;
+
+  font-weight: bold;
+
+  position: relative;
+  left: 2%;
+}
+sub {
+  position: relative;
+  font-size: 12px;
+  left: -15%;
+  top: 13px;
+}
+#headerContent {
+  margin: 10px;
+  padding: 5px;
+
+  position: relative;
+  left: 40.5%;
+  width: 30%;
+
+  display: flex;
+}
+.headIcons {
+  position: relative;
+  margin: 10px 10px 0px 10px;
+  font-size: 25px;
+}
+
+#searchBar {
+  background-color: transparent;
+  border-radius: var(--BRadius);
+  position: relative;
+  left: 5%;
+
+  margin: 7px 10px 0px 0px;
+  padding: 5px;
+  border: 1px solid;
+  font-size: 13px;
+
+  height: 3em;
+  width: 55em;
+}
+/* ------------------------------sideBar---------------------- */
+aside {
+  background: var(--BG-color);
+  border-radius: var(--BRadius);
+  width: 17em;
+  height: 43.8em;
+  margin: 0px 10px 0px 0px;
+  padding: 10px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  position: fixed;
+  left: 0.3%;
+  top: 1%;
+}
+#closedMenu {
+  /* ------------------------------closedmenu---------------------- */
+  background-color: #03202c;
+  position: absolute;
+  height: 43em;
+  width: 16em;
+}
+.sidebarIconsClosed {
+  background-color: var(--Items-bg-color);
+  border-radius: var(--BRadius);
+  width: 20%;
+  height: 4%;
+
+  position: relative;
+  top: 10%;
+
+  margin: 15px 5px 15px 5px;
+
+  padding: 10px;
+
+  font-size: 15px;
+  /* font-weight: bold; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#completeMenu {
+  /* ----------------------------completemenu------------------------ */
+  display: none;
+  position: absolute;
+  height: 43em;
+  width: 16em;
+  background-color: #17032c;
+}
+.sidebarLinksComplete {
+  background-color: var(--Items-bg-color);
+  border-radius: var(--BRadius);
+  width: 80%;
+  height: 2.5em;
+
+  position: relative;
+  top: 10%;
+
+  margin: 15px 5px 15px 5px;
+  padding: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#menuButton {
+  background-color: var(--Items-bg-color);
+  border-radius: var(--BRadius);
+
+  font-size: 40px;
+
+  position: absolute;
+  left: 13%;
+  top: 3%;
+
+  width: 20%;
+  height: 6%;
+  border: 0;
+  cursor: pointer;
+}
+
+.sidebarIcons {
+  margin-right: 15px;
+  font-size: 27px;
+}
+main {
+  background: var(--BG-color);
+  border-radius: var(--BRadius);
+  width: 75.4em;
+  height: 43.5em;
+
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+
+  position: relative;
+  left: 18%;
+  top: 0%;
+}
+
+footer {
+  /*---------------- Footer ------------------*/
+  background: var(--BG-color);
+  border-radius: var(--BRadius);
+  width: 75.4em;
+  height: 5em;
+  margin: 10px 10px 10px 10px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  left: 18%;
+  bottom: 8x;
+}
